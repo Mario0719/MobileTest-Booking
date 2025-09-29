@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="114" id="KGk-i7-Jjw" customClass="BookingInfoCell" customModule="MobileTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="船舶参考信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5J-43-Qm2">
+                        <rect key="frame" x="15.999999999999993" y="8" width="101.33333333333331" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Token" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0S2-nx-rX5">
+                        <rect key="frame" x="15.999999999999996" y="37" width="38.666666666666657" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="过期时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sR-gc-NjG">
+                        <rect key="frame" x="15.999999999999996" y="62" width="55.666666666666657" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUl-oh-UxL">
+                        <rect key="frame" x="16.000000000000004" y="87" width="35.333333333333343" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="持续时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8n-nQ-hId">
+                        <rect key="frame" x="340.33333333333331" y="62" width="55.666666666666686" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（缓存数据）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpZ-5m-KYw">
+                        <rect key="frame" x="346" y="89.666666666666671" width="50" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1sR-gc-NjG" firstAttribute="top" secondItem="0S2-nx-rX5" secondAttribute="bottom" constant="8" id="8Db-Rr-psJ"/>
+                    <constraint firstItem="i5J-43-Qm2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="8kP-Fz-8wD"/>
+                    <constraint firstItem="p8n-nQ-hId" firstAttribute="centerY" secondItem="1sR-gc-NjG" secondAttribute="centerY" id="Ab7-Ez-jDC"/>
+                    <constraint firstItem="QpZ-5m-KYw" firstAttribute="trailing" secondItem="p8n-nQ-hId" secondAttribute="trailing" id="D0t-th-VRF"/>
+                    <constraint firstItem="IUl-oh-UxL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Lfn-3z-hdG"/>
+                    <constraint firstItem="IUl-oh-UxL" firstAttribute="top" secondItem="1sR-gc-NjG" secondAttribute="bottom" constant="8" id="MJU-Qs-kyH"/>
+                    <constraint firstItem="i5J-43-Qm2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="XgG-9b-Lap"/>
+                    <constraint firstItem="0S2-nx-rX5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="e9b-iN-C6I"/>
+                    <constraint firstAttribute="trailing" secondItem="p8n-nQ-hId" secondAttribute="trailing" constant="16" id="fY5-KW-y1j"/>
+                    <constraint firstItem="QpZ-5m-KYw" firstAttribute="centerY" secondItem="IUl-oh-UxL" secondAttribute="centerY" id="gst-sa-lzE"/>
+                    <constraint firstItem="0S2-nx-rX5" firstAttribute="top" secondItem="i5J-43-Qm2" secondAttribute="bottom" constant="8" id="heX-N1-d9T"/>
+                    <constraint firstItem="1sR-gc-NjG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="oD7-aY-DLW"/>
+                    <constraint firstAttribute="bottom" secondItem="IUl-oh-UxL" secondAttribute="bottom" constant="10" id="vgY-cI-CSO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cachedData" destination="QpZ-5m-KYw" id="w8l-sb-ThT"/>
+                <outlet property="duration" destination="p8n-nQ-hId" id="Wdt-TU-bvN"/>
+                <outlet property="expireTime" destination="1sR-gc-NjG" id="yan-c4-n4S"/>
+                <outlet property="issueTicketChecking" destination="IUl-oh-UxL" id="dfY-C8-40D"/>
+                <outlet property="shipReference" destination="i5J-43-Qm2" id="qeY-Ys-zYG"/>
+                <outlet property="shipToken" destination="0S2-nx-rX5" id="KtT-pM-vpE"/>
+            </connections>
+            <point key="canvasLocation" x="209.16030534351145" y="178.16901408450704"/>
+        </tableViewCell>
+    </objects>
+</document>
